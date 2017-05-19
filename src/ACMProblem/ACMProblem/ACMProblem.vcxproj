@@ -146,6 +146,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ACMProblem.cpp" />
+    <ClCompile Include="stampProblem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stampProblem.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
