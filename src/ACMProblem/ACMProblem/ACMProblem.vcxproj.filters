@@ -21,5 +21,13 @@
     <ClCompile Include="ACMProblem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="stampProblem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stampProblem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

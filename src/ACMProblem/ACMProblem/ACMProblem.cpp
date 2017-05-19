@@ -1,14 +1,12 @@
 // ACMProblem.cpp : Defines the entry point for the console application.
 //
-
+#include "stampProblem.h"
 #include "iostream"
 using namespace std;
 
 int main()
 {
-	int a, b;
-	cin >> a >> b;
-	cout << a + b << endl;
-    return 0;
+	stampProblem *sp = new stampProblem();
+	sp->execute();
 }
 
