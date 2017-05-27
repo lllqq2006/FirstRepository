@@ -147,6 +147,7 @@
   <ItemGroup>
     <ClCompile Include="ACMProblem.cpp" />
     <ClCompile Include="stampProblem.cpp" />
+    <ClCompile Include="tiaozao.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stampProblem.h" />
