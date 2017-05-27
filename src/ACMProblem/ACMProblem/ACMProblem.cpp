@@ -1,12 +1,11 @@
-// ACMProblem.cpp : Defines the entry point for the console application.
+﻿// ACMProblem.cpp : Defines the entry poi64 for the console application.
 //
-#include "stampProblem.h"
 #include "iostream"
 using namespace std;
 
 int main()
 {
-	stampProblem *sp = new stampProblem();
-	sp->execute();
+	do
+	{
+	} while (getchar() != EOF);
 }
-
