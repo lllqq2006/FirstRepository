@@ -10,6 +10,14 @@ namespace CShapLearning
     {
         static void Main(string[] args)
         {
+            string a = "a string";
+            string b = a;
+            System.Console.WriteLine("a is " + a);
+            System.Console.WriteLine("b is " + b);
+
+            b = "another string";
+            System.Console.WriteLine("a is " + a);
+            System.Console.WriteLine("b is " + b);
         }
     }
 }
