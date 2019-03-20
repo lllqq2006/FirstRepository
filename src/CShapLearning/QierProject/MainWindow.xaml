@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QierProject"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Qier 登陆界面" Height="200" Width="300" WindowStartupLocation="CenterScreen">
     <Grid>
-        
+        <TextBlock x:Name="usernameLabel" HorizontalAlignment="Left" Height="25" Margin="20,30,0,0" TextWrapping="Wrap" Text="用户：" VerticalAlignment="Top" Width="50" FontSize="16"/>
+        <TextBox x:Name="usernameTxB" HorizontalAlignment="Left" Height="25" Margin="90,30,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="170" FontSize="16" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="pswLabel" HorizontalAlignment="Left" Height="25" Margin="20,80,0,0" TextWrapping="Wrap" Text="密码：" VerticalAlignment="Top" Width="50" FontSize="16"/>
+        <PasswordBox x:Name="pawTxb" HorizontalAlignment="Left" Height="25" Margin="90,80,0,0"  VerticalAlignment="Top" Width="170" FontSize="16" Grid.ColumnSpan="2"/>
+        <Button x:Name="okBtn" Content="确定" HorizontalAlignment="Left" Height="25" Margin="50,130,0,0" VerticalAlignment="Top" Width="70" Background="#FFDDDDDD" FontSize="16" Click="OkBtn_Click"/>
+        <Button x:Name="cancelBtn" Content="取消" HorizontalAlignment="Left" Height="25" Margin="170,130,0,0" VerticalAlignment="Top" Width="70" Background="#FFDDDDDD" FontSize="16" IsCancel="True" Click="CancelBtn_Click"/>
+
     </Grid>
 </Window>

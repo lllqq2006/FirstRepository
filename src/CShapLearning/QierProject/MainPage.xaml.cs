@@ -16,25 +16,13 @@ using System.Windows.Shapes;
 namespace QierProject
 {
     /// <summary>
-    /// MainWindow.xaml 的交互逻辑
+    /// MainPage.xaml 的交互逻辑
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainPage : Page
     {
-        public MainWindow()
+        public MainPage()
         {
             InitializeComponent();
-        }
-
-        private void CancelBtn_Click(object sender, RoutedEventArgs e)
-        {
-            Application.Current.Shutdown();
-        }
-
-        private void OkBtn_Click(object sender, RoutedEventArgs e)
-        {
-            var window = new ContentWindow();
-            this.Close();
-            window.Show();
         }
     }
 }

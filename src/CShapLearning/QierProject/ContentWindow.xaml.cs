@@ -10,31 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace QierProject
 {
     /// <summary>
-    /// MainWindow.xaml 的交互逻辑
+    /// ContentWindow.xaml 的交互逻辑
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class ContentWindow : Window
     {
-        public MainWindow()
+        public ContentWindow()
         {
             InitializeComponent();
-        }
-
-        private void CancelBtn_Click(object sender, RoutedEventArgs e)
-        {
-            Application.Current.Shutdown();
-        }
-
-        private void OkBtn_Click(object sender, RoutedEventArgs e)
-        {
-            var window = new ContentWindow();
-            this.Close();
-            window.Show();
         }
     }
 }
